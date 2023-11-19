@@ -1,0 +1,185 @@
+body{
+background-color:white;
+}
+
+.main{
+width:100%;
+font-family:sans-serif;
+}
+
+.navbar{
+display:flex;
+margin:auto;
+padding:15px 0;
+align-items:center;
+justify-content:space-between;
+}
+
+.navbar.logo{
+  width:200px;
+  cursor:pointer;
+  margin-top:-3%;
+  margin-left:-2%;
+}
+  
+ul{
+margin-top:-4%;
+}
+
+
+ul li{
+list-style:none;
+display:inline-block;
+padding:10px 16px;
+}
+
+.info{
+   background:lavender;
+   margin-left:4%;
+   margin-top:6%; 
+   border-radius:200px;
+}
+
+info.h1{
+  font-size:40px;
+  font-style:sans-serif;
+  margin-left:6%;
+  }
+
+ info.p{
+  font-style:sans-serif;
+  font-size:20px;
+  margin-left:6%;
+  }
+
+.image{
+ width:30%;
+ height:60%;
+ position:absolute;
+ right:500px;
+}
+
+.image img{
+  position:absolute;
+  height:400;
+  transform:translate(10%);
+  left: 1px;
+  bottom:350;
+  transition:left 2s ease;
+}
+
+.image:hover .photo{
+left:55%;
+}
+
+.icons a{
+  text-decoration:none; 
+}
+
+.icons ion-icon{
+  margin-left:7%;
+  color:#000;
+  margin-right:-60px;
+  font-size:40px
+}
+
+.resume{
+  background-color: #000;
+  text-decoration: none;
+  padding: 10px 18px;
+  font-weight:bold;
+  color:#fff;
+  display:inline-block;
+  margin:30px 0;
+  border-radius: 5px;
+  margin-left:100px;
+}
+
+.skills{
+  background-color: lavender;
+  margin:auto;
+  border-radius: 200px;
+  margin-bottom: 10px;
+  margin-left:90px;
+  height:410px;
+}
+
+.skill-label {
+  display: inline-block;
+  width: 410px;
+  font-weight: bold;
+  color:orange;
+  font-size: 35;
+}
+
+.skill-bar{
+  display: inline-block;
+  width: 700px;
+  height: 40px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-progress{
+  height: 100%;
+  background-color: rgb(129, 70, 184); 
+  transition:left 2s ease;
+}
+
+.skill-bar:hover .skill-progress {
+  width: 100%;
+}
+
+/**.skill-label2 {
+  display: inline-block;
+  width: 400px;
+  font-weight: bold;
+  color:orange;
+  font-size: 30;
+
+}
+
+.skill-bar2{
+  display: inline-block;
+  width: 400px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-progress2{
+  height: 100%;
+  background-color: #4caf50; 
+}
+
+.skill-label3 {
+  display: inline-block;
+  width: 400px;
+  font-weight: bold;
+  color:orange;
+  font-size: 30;
+
+}
+
+.skill-bar3{
+  display: inline-block;
+  width: 400px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-progress3{
+  height: 100%;
+  background-color: #4caf50; 
+}
+--!>**/
+
+  
+
+
+
+
